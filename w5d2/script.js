@@ -1,0 +1,10 @@
+var pageTitleElement = document.getElementById("eldest-parent");
+var child = document.getElementById("a-child")
+var tugas1 = pageTitleElement.children[0];
+tugas1.innerHTML = "Diakses Melalui Eldest Parent"
+var tugas2 = child.nextElementSibling;
+tugas2.innerHTML = "Diakses Melalui a Child"
+var tugas3 = child.previousElementSibling;
+tugas3.innerHTML = "Diakses Melalui a Child"
+var tugas4 = child.parentNode.parentNode.nextElementSibling;
+tugas4.innerHTML = "Diakses Melalui a Child"
