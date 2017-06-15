@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title> Quiz </title>
+<script src="Script.js"> </script>
+<link href="../demo.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<h1>Mari Mengenal Presiden Pertama Indonesia </h1>
+<form id="test">
+  <table border="1" cellpadding="5" cellspacing="0">
+    <tr>
+      <td>Siapakah presiden pertama indonesia ? </td>
+      <td><input name="q1" type="text" id="q1" size="30" maxlength="30" /></td>
+    </tr>
+    <tr>
+      <td>ketika dilahirkan apakah Ir. H. Soekarno diberikan nama kusno oleh orangtua nya </td>
+      <td><input name="q2" type="radio" value="true" />
+        Benar |
+        <input name="q2" type="radio" value="false" />
+        Salah</td>
+    </tr>
+    <tr>
+      <td>Dimanakah  Ir. H. Soekarno lahir ? </td>
+      <td><input name="q3" type="radio" value="Batavia" />
+      Batavia |
+      <input name="q3" type="radio" value="Yogyakarta" />
+      Yogyakarta |
+      <input name="q3" type="radio" value="Surabaya" />
+      Surabaya |
+      <input name="q3" type="radio" value="Bandoeng" />
+      Bandoeng |
+      <input name="q3" type="radio" value="Aceh" />
+      Aceh </td>
+    </tr>
+    <tr>
+      <td width="30%">berikut merupakan hasil karya yang dipengaruhi oleh Soekarno atau atas perintah dan koordinasinya dengan beberapa arsitek yaitu ? [Bisa memilih lebih dari satu] </td>
+      <td><input name="q4" type="checkbox" id="q4" value="Gedung sate" />
+        Gedung Sate |
+        <input name="q4" type="checkbox" id="q4" value="Gedung Conefo" />
+        Gedung Conefo |
+        <input name="q4" type="checkbox" id="q4" value="Gedung Sarinah" />
+        Gedung Sarinah |
+        <input name="q4" type="checkbox" id="q4" value="Masjid Istiqlal" />
+        Masjid Istiqlal</td>
+    </tr>
+	<tr>
+      <td>Dimanakah presiden Ir. H. Soekarno dimakamkan ?</td>
+      <td><select name="q5" id="q5">
+        <option value="Semarang">Semarang</option>
+        <option value="Blitar">Blitar</option>
+        <option value="Banyuwangi">Banyuwangi</option>
+        <option value="Solo">Solo</option>
+        <option value="Bogor">Bogor</option>
+      </select>
+      </td>
+    </tr>
+  </table>
+  <br />
+  <input name="submit" type="button" onClick="Nilai()" value="Nilai" />
+</form>
+  <p>&nbsp;</p>
+</body>
+</html>
